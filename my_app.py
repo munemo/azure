@@ -20,9 +20,9 @@ def upload():
         conn_string = "DefaultEndpointsProtocol=https;AccountName=lexicon;AccountKey=dr5mn8/DXPBKwP6NvtJO96vKJFEZpLiVFHLyE0/jPrfe9Pmlpp2NYoJeutVJECCjILvGyf2cWa9D9QQIeywxfQ==;EndpointSuffix=core.windows.net"
 
         blob_client = BlobClient.from_connection_string(conn_string,
-           container_name="lexicon-container", blob_name="flask_test20.txt")
+           container_name="lexicon-container", blob_name="flask_test21.txt")
 
-        with open("./flask_test20.txt", "rb") as data:
+        with open("./flask_test21.txt", "rb") as data:
             blob_client.upload_blob(data)
         output = request.form.to_dict()
         name = output["name"]
