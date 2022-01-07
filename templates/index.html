@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <body>
+        <h1>Upload</h1>
+
+        <form class="grid" action="/upload" method="POST">
+
+            {% if name %}
+              <center>
+                <h3 style="color: blue;" class="let_space">Filename: {{name}} uploaded!</h3>
+              </center> 
+  
+            {% endif %}
+             
+            <label for="name">Add file:</label>
+            <input type="text" id="name" name="name">
+  
+            <center><input class="file_submit" type="Submit"></center>
+  
+          </form>
+  
+        </body>
+    
+    </head>
+
+</html>
