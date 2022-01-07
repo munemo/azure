@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'dropboxapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CD486AFE8A7A48AB8A9A2A0E5CFCE2B6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_03D7E80CAF4B4F7387270D69DF2A8E9E }}
